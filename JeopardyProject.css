@@ -1,0 +1,27 @@
+body {
+    background-color: Cyan;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+#bar {
+    text-transform: uppercase;
+    text-align: center;
+    background-color: MidnightBlue;
+    font-size: 20px;
+    border-style: groove;
+    border-color: white;
+    padding: 5px;
+}
+
+#bar li {
+    padding: 80px;
+    display: inline;
+}
+
+#bar a{
+    color: white;
+}

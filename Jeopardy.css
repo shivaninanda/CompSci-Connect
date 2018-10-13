@@ -1,0 +1,10 @@
+body {
+    background-color: MidnightBlue;
+    font-size: 150%;
+    
+}
+h1 {
+    color: White;
+    text-align: center;
+    border: 15px groove white;
+}

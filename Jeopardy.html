@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Jeopardy</title>
+    <link href="Jeopardy.css" type = "text/css" rel="stylesheet" />
+    <script type="text/javascript" src ="Jeopardy.js"></script>
+</head>
+
+<body>
+    <h1>Jeopardy</h1>
+    <style>
+    .button {
+    background-color: Black;
+    border: Double;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: blink;
+    display: inline-block;
+    font-size: 32px;
+    margin: 4px 2px;
+    cursor: pointer;
+    }
+    </style>
+    
+    <style>
+    .buttonTwo {
+    background-color: Black;
+    border: Double;
+    color: white;
+    padding: 15px 34px;
+    text-align: center;
+    text-decoration: blink;
+    display: inline-block;
+    font-size: 32px;
+    margin: 4px 2px;
+    cursor: pointer;
+    }
+    </style>
+    
+    <br>
+    
+    <button onclick = "Riddle100()" class = "buttonTwo">Riddles 100</button>
+    <button onclick = "Math100()" class = "buttonTwo">Math 100</button>
+    <button onclick = "ComputerScience100()" class = "buttonTwo">ComputerScience 100</button>
+    <button onclick = "Science100()" class = "buttonTwo">Science 100</button>
+    <button onclick = "Animals100()" class = "buttonTwo">Animals 100</button>
+
+    <br>
+    
+    <button onclick = "Riddle200()" class = "button">Riddles 200</button>
+    <button onclick = "Math200()" class = "button">Math 200</button>
+    <button onclick = "ComputerScience200()" class = "button">ComputerScience 200</button>
+    <button onclick = "Science200()" class = "button">Science 200</button>
+    <button onclick = "Animals200()" class = "button">Animals 200</button>
+    
+    <br>
+    
+    <button onclick = "Riddle300()" class = "button">Riddles 300</button>
+    <button onclick = "Math300()" class = "button">Math 300</button>
+    <button onclick = "ComputerScience300()" class = "button">ComputerScience 300</button>
+    <button onclick = "Science300()" class = "button">Science 300</button>
+    <button onclick = "Animals300()" class = "button">Animals 300</button>
+    
+    <br>
+    
+    <button onclick = "Riddle400()" class = "button">Riddles 400</button>
+    <button onclick = "Math400()" class = "button">Math 400</button>
+    <button onclick = "ComputerScience400()" class = "button">ComputerScience 400</button>
+    <button onclick = "Science400()" class = "button">Science 400</button>
+    <button onclick = "Animals400()" class = "button">Animals 400</button>
+    
+    <br>
+    
+    <button onclick = "Riddle500()" class = "button">Riddles 500</button>
+    <button onclick = "Math500()" class = "button">Math 500</button>
+    <button onclick = "ComputerScience500()" class = "button">ComputerScience 500</button>
+    <button onclick = "Science500()" class = "button">Science 500</button>
+    <button onclick = "Animals500()" class = "button">Animals 500</button>
+    
+    <p id="score"></p>
+    <script>
+        var score_total = document.getElementById("score");
+        score_total.innerHTML = parseInt(score_total.innerHTML)++;
+    </script>
+</body>
+</html>
